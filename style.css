@@ -1,0 +1,51 @@
+a{
+  text-decoration: none;
+}
+
+#natureimage{
+  height: 800px;
+  background-image: url("images/parks/umunhum_almaden.png");
+  background-size: cover;
+  //border: 2px solid red;
+}
+
+#image-content{
+  width: 500px;
+  background-color: rgba(97, 151, 237, 0.7);
+  box-shadow: 2px 4px 5px forestgreen;
+  border-radius: 10px;
+  //border: 3px solid red;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+}
+
+#image-content h1 {
+  color: gold;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#image-content p{
+  color: gold;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#image-content a {
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  font-size: 24px;
+  //font-weight: bold;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgba(45, 87, 23, 0.8);
+}

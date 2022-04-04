@@ -1,0 +1,40 @@
+body{
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+#page-logo a {
+  padding: 25px;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(69, 96, 42);
+  font-size: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 3px -3px 3px rgb(42, 24, 69);
+}
+ul{
+  list-style:square;
+  margin:0;
+  padding: 0;
+}
+
+header ul{
+  list-style: none;
+  //margin: 10px;
+  padding: 0;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+header li{
+  width: 69px;
+}
+#container{
+  display: flex;
+  //flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  //width: 600px;
+  padding: 15px 25px;
+  background-color: lightyellow;
+  //border: 2px solid blue;
+}
