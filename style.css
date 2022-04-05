@@ -53,3 +53,46 @@ a{
 #image-content a:hover{
   background-color: rgb(255, 242, 0);
 }
+
+#bestparks, #bestparks2{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  //border: 2px solid red;
+  //justify-content: space-between;
+  justify-content: center;
+}
+.bestpark{
+  margin: 0 20px;
+  width: 300px;
+}
+
+.bestpark p{
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 16px;
+  margin: 10px 0 40px;
+  color: rgb(172, 97, 237);
+}
+.bestpark img{
+  height: 200px;
+  width: 100%;
+  border-radius: 30px;
+  //object-fit: cover;
+}
+.bestpark strong{
+  color: purple;
+}
+
+#beauty{
+  padding: 30px;
+  background-color: lightyellow;
+  background: linear-gradient(30deg, gold, lightyellow);
+}
+#beauty h2{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(69, 169, 42);
+  margin: 100px 0 60px;
+}
