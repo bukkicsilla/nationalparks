@@ -1,0 +1,14 @@
+body{
+background-color: lightblue;
+background: linear-gradient(30deg, lightblue, rgb(69, 69, 255));
+}
+header{
+  position: static;
+}
+main ul{
+  width: 700px;
+}
+main li img{
+  width: 400px;
+  height: auto;
+}

@@ -28,7 +28,7 @@ header ul{
 header li{
   width: 69px;
 }
-#container{
+header{
   display: flex;
   //flex-direction: row;
   align-items: center;
@@ -54,4 +54,20 @@ header a {
 header .links:hover {
   color: gold;
   background-color: forestgreen;
+}
+
+footer{
+  background-color: forestgreen;
+  padding:20px;
+}
+footer img{
+  width: 50px;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer li{
+  margin: 0 15px;
 }
