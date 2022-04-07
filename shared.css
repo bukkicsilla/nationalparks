@@ -52,7 +52,12 @@ header a {
   border-radius: 6px;
 }
 
-header .links:hover {
+/*header .links:hover {
+  color: gold;
+  background-color: forestgreen;
+}
+same as the previous*/
+header nav  a:hover{
   color: gold;
   background-color: forestgreen;
 }
